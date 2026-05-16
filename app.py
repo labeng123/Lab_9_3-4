@@ -37,7 +37,7 @@ def criar_livraria():
 
 
 # 3. READ (GET) - Listar todas as livrarias
-@app.route('/api/livrarias', methods=['GET'])
+@app.route('/api/Buscarlivrarias', methods=['GET'])
 def listar_livrarias():
     return jsonify(list(livrarias_mock.values())), 200
 
